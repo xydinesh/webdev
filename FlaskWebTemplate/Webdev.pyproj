@@ -39,6 +39,7 @@
     <Folder Include="static\fonts\" />
     <Folder Include="static\scripts\" />
     <Folder Include="templates\" />
+    <Folder Include="templates\project\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
@@ -49,8 +50,6 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="static\index.html" />
-    <Content Include="static\project_1.html" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
     <Content Include="static\scripts\jquery-1.10.2.intellisense.js" />
@@ -66,10 +65,13 @@
     <Content Include="static\scripts\respond.js" />
     <Content Include="static\scripts\respond.min.js" />
     <Content Include="static\scripts\_references.js" />
+    <Content Include="templates\home.html" />
     <Content Include="templates\about.html" />
     <Content Include="templates\contact.html" />
     <Content Include="templates\index.html" />
     <Content Include="templates\layout.html" />
+    <Content Include="templates\project\2.html" />
+    <Content Include="templates\project\1.html" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">

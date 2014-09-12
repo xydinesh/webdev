@@ -8,8 +8,8 @@ def home():
     return render_template(
         'index.html',
         title = 'Home Page',
-        year = datetime.now().year,
-        page = '/static/index.html'
+        page = '/internal/home',
+        year = datetime.now().year
     )
 
 
@@ -18,8 +18,29 @@ def project01():
     return render_template(
         'index.html',
         title = 'Project 01',
-        page = '/static/project_1.html',
+        page = '/internal/project/01',
         year = datetime.now().year
         )
+
+@app.route('/project/02')
+def project02():
+    return render_template(
+        'index.html',
+        title = 'Project 02',
+        page = '/internal/project/02',
+        year = datetime.now().year
+        )
+
+@app.route('/internal/home')
+def in_home():
+    return render_template('home.html')
+
+@app.route('/internal/project/01')
+def in_project01():
+    return render_template('project/1.html')
+
+@app.route('/internal/project/02')
+def in_project02():
+    return render_template('project/2.html')
 
 
