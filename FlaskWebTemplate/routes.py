@@ -9,6 +9,7 @@ def home():
         'index.html',
         title = 'Home Page',
         page = '/internal/home',
+        height = '800px',
         year = datetime.now().year
     )
 
@@ -19,6 +20,7 @@ def project01():
         'index.html',
         title = 'Project 01',
         page = '/internal/project/01',
+        height = '1600px',
         year = datetime.now().year
         )
 
@@ -28,6 +30,7 @@ def project02():
         'index.html',
         title = 'Project 02',
         page = '/internal/project/02',
+        height = '1600px',
         year = datetime.now().year
         )
 
