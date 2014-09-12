@@ -9,23 +9,17 @@ def home():
         'index.html',
         title = 'Home Page',
         year = datetime.now().year,
+        page = '/static/index.html'
     )
 
-@app.route('/contact')
-def contact():
-    return render_template(
-        'contact.html',
-        title = 'Contact',
-        year = datetime.now().year,
-        message = 'Your contact page.'
-    )
 
-@app.route('/about')
-def about():
+@app.route('/project/01')
+def project01():
     return render_template(
-        'about.html',
-        title = 'About',
-        year = datetime.now().year,
-        message = 'Your application description page.'
-    )
+        'index.html',
+        title = 'Project 01',
+        page = '/static/project_1.html',
+        year = datetime.now().year
+        )
+
 
