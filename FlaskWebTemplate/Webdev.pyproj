@@ -70,6 +70,7 @@
     <Content Include="templates\contact.html" />
     <Content Include="templates\index.html" />
     <Content Include="templates\layout.html" />
+    <Content Include="templates\project\3.html" />
     <Content Include="templates\project\2.html" />
     <Content Include="templates\project\1.html" />
   </ItemGroup>
