@@ -35,7 +35,7 @@ def project02():
         )
 
 @app.route('/project/03')
-def project02():
+def project03():
     return render_template(
         'index.html',
         title = 'Project 03',
@@ -57,7 +57,7 @@ def in_project02():
     return render_template('project/2.html')
 
 @app.route('/internal/project/03')
-def in_project02():
+def in_project03():
     return render_template('project/3.html')
 
 
