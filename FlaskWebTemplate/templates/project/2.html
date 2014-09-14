@@ -5,6 +5,16 @@
     p {
         color: seagreen;
     }
+
+    .data {
+        font-family: 'Comic Sans MS';
+        font-style: italic;
+    }
+
+    .graybox {
+        background-color: #F0F0F0;
+        width: 600px;
+    }
 </style>
 {% endblock %}
 
@@ -13,10 +23,14 @@
 
 <div>
     <h1>Learning CSS 02</h1>
-    <p>
-        This domain is established to be used for illustrative examples in documents. You may use this
-        domain in examples without prior coordination or asking for permission.
-    </p>
+    <div class="graybox">
+        <p>
+            This domain is established to be used for illustrative examples in documents. You may use this
+            domain in examples without prior coordination or asking for permission.
+        </p>
+    </div>
+
+    <p class="data">When you define a class in CSS, it can be reused in all tags.</p>
     <p><a href="http://www.iana.org/domains/example">More information...</a></p>
 </div>
 

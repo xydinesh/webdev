@@ -13,6 +13,9 @@ def home():
         year = datetime.now().year
     )
 
+@app.route('/internal/home')
+def in_home():
+    return render_template('home.html')
 
 @app.route('/project/01')
 def project01():
@@ -24,6 +27,10 @@ def project01():
         year = datetime.now().year
         )
 
+@app.route('/internal/project/01')
+def in_project01():
+    return render_template('project/1.html')
+
 @app.route('/project/02')
 def project02():
     return render_template(
@@ -34,6 +41,10 @@ def project02():
         year = datetime.now().year
         )
 
+@app.route('/internal/project/02')
+def in_project02():
+    return render_template('project/2.html')
+
 @app.route('/project/03')
 def project03():
     return render_template(
@@ -43,18 +54,6 @@ def project03():
         height = '1600px',
         year = datetime.now().year
         )
-
-@app.route('/internal/home')
-def in_home():
-    return render_template('home.html')
-
-@app.route('/internal/project/01')
-def in_project01():
-    return render_template('project/1.html')
-
-@app.route('/internal/project/02')
-def in_project02():
-    return render_template('project/2.html')
 
 @app.route('/internal/project/03')
 def in_project03():
