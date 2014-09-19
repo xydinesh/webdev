@@ -35,7 +35,7 @@ def in_project01():
 def project02():
     return render_template(
         'index.html',
-        title = 'Project 02',
+        title = 'Dinesh BBC Clone',
         page = '/internal/project/02',
         height = '1600px',
         year = datetime.now().year
