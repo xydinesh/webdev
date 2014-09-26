@@ -120,22 +120,34 @@
             }
 
         #topicmenu {
-
+            margin: 0;
+            
         }
 
             #topicmenu ul {
-                padding: 0;
                 margin: 0;
                 float: left;
                 background-color: #3E0C0D;
+                padding: 5px 0 0 5px;
+                height: 20px;
             }
 
-        #topicmenu ul li {
-            list-style: none;
-            float: left;
-            font-size: 0.8em;
-            padding: 4px;
-        }
+                #topicmenu ul li {
+                    list-style: none;
+                    float: left;
+                    font-size: 0.8em;
+                    padding: 0 10px 0 10px;
+                    border-right: 1px solid #990000;
+                }
+
+                .selected {
+                    background-color: #EDEDED;
+                    color: #666666;
+                    height:18px;
+                    position: relative;
+                    top: -4px;
+                    padding-top: 5px !important;
+                }
     </style>
 </head>
 
@@ -175,9 +187,16 @@
                         <li> Home </li>
                         <li> US &amp; Canada</li>
                         <li> Latin America</li>
-                        <li> UK </li>
+                        <li class="selected"> UK </li>
                         <li> Africa </li>
                         <li> Asia</li>
+                        <li>Europe</li>    
+                        <li>Mid-East</li>
+                        <li>Business</li>
+                        <li>Health</li>
+                        <li>Sci/Environment</li>
+                        <li>Tech</li>
+                        <li style="border-right:none">Entertainment &amp; Arts</li>
                     </ul>
                 </div>
             </div>
