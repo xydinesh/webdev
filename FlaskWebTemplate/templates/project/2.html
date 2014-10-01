@@ -22,15 +22,15 @@
             margin: 0;
         }
 
-       .fixedwidth {
+        .fixedwidth {
             margin: 0 auto;
-            width: 1050px;        
-            padding: 0;   
+            width: 1050px;
+            padding: 0;
         }
 
         #logodiv {
             float: left;
-            border-right:1px solid #990000;
+            border-right: 1px solid #990000;
             padding: 4px 20px 4px 10px;
         }
 
@@ -47,10 +47,10 @@
             margin: 0;
         }
 
-        #topmenu ul {
-            margin: 0;
-            padding: 0;
-        }
+            #topmenu ul {
+                margin: 0;
+                padding: 0;
+            }
 
             #topmenu li {
                 list-style: none;
@@ -75,16 +75,16 @@
         }
 
         #searchdiv {
-           border-right: 1px solid #990000;
-           padding: 8px;
-           float: left;
+            border-right: 1px solid #990000;
+            padding: 8px;
+            float: left;
         }
 
         .break {
             clear: both;
         }
 
-        #newsbar{
+        #newsbar {
             background-color: #990000;
             width: 100%;
             height: 90px;
@@ -94,12 +94,12 @@
             margin: 0;
         }
 
-        #newsbar p {
-            padding: 0;
-            margin: 0;
-            padding-top: 10px;
-            float: left;
-        }
+            #newsbar p {
+                padding: 0;
+                margin: 0;
+                padding-top: 10px;
+                float: left;
+            }
 
         #newsheader {
             font-size: 3em;
@@ -116,12 +116,11 @@
         }
 
             #rss img {
-               width: 14px;
+                width: 14px;
             }
 
         #topicmenu {
             margin: 0;
-            
         }
 
             #topicmenu ul {
@@ -140,16 +139,16 @@
                     border-right: 1px solid #990000;
                 }
 
-                .selected {
-                    background-color: #EDEDED;
-                    color: #666666;
-                    height:18px;
-                    position: relative;
-                    top: -4px;
-                    padding-top: 5px !important;
-                }
+        .selected {
+            background-color: #EDEDED;
+            color: #666666;
+            height: 18px;
+            position: relative;
+            top: -4px;
+            padding-top: 5px !important;
+        }
 
-        #content{
+        #content {
             width: 100%;
             color: #535353;
             font-size: 0.8em;
@@ -175,19 +174,22 @@
             font-size: 1.1em;
         }
 
-        .newsitem p {
-            padding: 0;
-            margin: 0;
-        }
+            .newsitem p {
+                padding: 0;
+                margin: 0;
+            }
 
-        .newsitem a {
-            color: #204A6B;
+            .newsitem a {
+                color: #204A6B;
+            }
+
+        a {
             text-decoration: none;
         }
 
-        .newsitem a:hover {
-            text-decoration: underline;
-        }
+            a:hover {
+                text-decoration: underline;
+            }
 
         .video {
             background-image: url('../../static/images/play.png');
@@ -198,6 +200,58 @@
             padding-left: 20px;
         }
 
+        #watchlisten {
+            background-color: #EEEEEE;
+            float: right;
+            width: 300px;
+            position: relative;
+            top: -80px;
+        }
+
+        h2 {
+            color: #505050;
+            font-size: 1.8em;
+            float: left;
+        }
+
+        #boxes {
+            margin: 30px 5px 0px 0;
+            float: right;
+        }
+
+        #imgvideo {
+            width: 290px;
+            position: relative;
+            left: 5px;
+            margin: 0;
+            padding: 0;
+        }
+
+        #watchlisten ul {
+            padding: 0;
+            margin: 0;
+
+        }
+
+            #watchlisten ul li {
+                list-style: none;
+                background-image: url('../../static/images/live.png');
+                background-repeat: no-repeat;
+                background-position: center left;
+                background-size: 25px;
+                border: none;
+                padding-left: 30px;
+                font-size: 1.6em;
+                margin: 10px 10px 0px 10px;
+            }
+
+                #watchlisten ul li a {
+                    color: #204A6B;
+                }
+
+        .bb {
+            border-bottom: solid 1px #204A6B;
+        }
     </style>
 </head>
 
@@ -256,7 +310,7 @@
             <div class="fixedwidth">
                 <p><span style="font-weight:bold">2 April 2014</span> Last Updated ad 15:23</p>
                 <h1>Pollution to spread across England</h1>
-                    <img class="headlineimage" src='../../static/images/headlineimape.png'></img>
+                <img class="headlineimage" src='../../static/images/headlineimape.png'></img>
                 <div class="newsitem">
                     <p>
                         Lorem ipsum dolor sit amet, mei temporibus vituperatoribus ex, mel dicunt feugait fuisset id. Labores vocibus mentitum nec at, eum ea oblique sanctus verterem. Eu modus nonumy vituperata per, nam ut labores nusquam dissentias. Purto platonem at vel. Ad pro scaevola voluptatum, quot gloriatur ius an, pri oportere suavitate no. Et usu aliquam efficiantur.
@@ -267,6 +321,17 @@
                     <p><a href="">What will pollution do to us?</a></p>
                     <p><a class="video" href="">Why are pollution level so high?</a></p>
                 </div>
+                <div id="watchlisten">
+                    <h2>Watch/Listen</h2>
+                    <img id="boxes" src="../../static/images/boxes.png">
+                    <img id="imgvideo" src="../../static/images/watchlistenvideo.png">
+                    <ul>
+                        <li class="bb"><a href="">BBC News Channel</a></li>
+                        <li class="bb"><a href="">Radio 5 live</a></li>
+                        <li><a href="">Osbone questioned on budget</a></li>
+                    </ul>
+                </div>
+                    
             </div>
         </div>
 </body>
